@@ -1,0 +1,14 @@
+// Separando pares de ímpares
+const original = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const pares = [];
+const impares = [];
+
+for (let item = 0; item < original.length; item++){
+    if (original[item] % 2 === 0){
+        pares.push(original[item]);
+    } else {
+        impares.push(original[item]);
+    }
+}
+console.log (pares);
+console.log (impares);
